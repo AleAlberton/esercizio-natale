@@ -1,0 +1,181 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid black 1px;
+    margin: 1rem;
+}
+
+.logo1 {
+    width: 25px;
+    height: 30px;
+}
+
+.brand-name {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+.menù {
+    margin-top: 2rem;
+    margin-bottom: 1rem
+}
+
+span {
+    padding: 10px;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+.card-header {
+    text-align: center;
+    width: 100%;
+}
+
+
+.btn {
+    display: block;
+    text-align: center;
+}
+
+.title-offerte{
+    align-content: center;
+}
+
+
+.table-title {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+
+td{
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+
+/* .plan-features {
+    width: 36%; non funziona, come faccio per fargli occupare il 36%?
+} */
+
+
+/* .plan-type{
+    width: 22%; non funziona, come faccio per far si che free pro ed enterprise occupino lo stesso spazio?
+
+} */
+
+
+
+/*css del footer*/
+
+footer ul{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+
+
+.footer-row {
+    width: 95vw;
+    margin: 3vw auto;
+    margin-top: 2rem;
+}
+
+
+.logo2 {
+    width: 50px;
+    height: 30px;
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 95vw;
+        margin: 3vw auto;
+        margin-top: 2rem;
+    } 
+    
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .menù {
+        margin-top: 1rem;
+    }
+
+    .brand-name {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .card {
+    margin-top: 2rem;
+    
+    }
+
+    
+   
+}
+
+
+@media (max-width:992px) {
+    .cards-row{
+        width: 95vw;
+        margin: 3vw auto;
+       }
+    
+    .all-table {
+        margin-top: 2rem;
+        width: 95vw;
+        margin: 3vw auto;
+    }
+
+    tr{
+        width: 95vw;
+    }
+
+    .intestazione {
+        width: 95vw;
+        margin: 3vw auto;
+        margin-top: 2rem;
+        padding: 1.5rem;
+    }
+}
+
+
+@media (min-width: 992px) {
+
+    main, footer {
+        max-width: 992px;    
+    } 
+
+    
+    .navbar {
+        max-width: 992px;
+        margin: auto;
+    }
+
+    
+    .intestazione {
+        margin-top: 2rem;
+    }
+
+}
