@@ -42,16 +42,14 @@ h5 {
     width: 100%;
 }
 
-
 .btn {
     display: block;
     text-align: center;
 }
 
-.title-offerte{
+.title-offerte {
     align-content: center;
 }
-
 
 .table-title {
     text-align: center;
@@ -59,13 +57,10 @@ h5 {
     margin-bottom: 2rem;
 }
 
-
-td{
+td {
     vertical-align: middle;
     text-align: center;
 }
-
-
 
 /* .plan-features {
     width: 36%; non funziona, come faccio per fargli occupare il 36%?
@@ -78,16 +73,11 @@ td{
 } */
 
 
-
-/*css del footer*/
-
 footer ul{
     list-style: none;
     padding: 0;
     text-align: left;
 }
-
-
 
 .footer-row {
     width: 95vw;
@@ -95,14 +85,15 @@ footer ul{
     margin-top: 2rem;
 }
 
-
 .logo2 {
     width: 50px;
     height: 30px;
 }
 
+/*---------------------------------------------------------------------- media query ----------------------------------------------------------------*/
 
 @media (max-width: 768px) {
+
     .card {
         width: 95vw;
         margin: 3vw auto;
@@ -112,6 +103,7 @@ footer ul{
 }
 
 @media (min-width: 768px) {
+
     .navbar {
         flex-direction: row;
         justify-content: space-between;
@@ -131,12 +123,10 @@ footer ul{
     
     }
 
-    
-   
 }
 
-
 @media (max-width:992px) {
+
     .cards-row{
         width: 95vw;
         margin: 3vw auto;
@@ -158,6 +148,7 @@ footer ul{
         margin-top: 2rem;
         padding: 1.5rem;
     }
+
 }
 
 
@@ -166,14 +157,12 @@ footer ul{
     main, footer {
         max-width: 992px;    
     } 
-
     
     .navbar {
         max-width: 992px;
         margin: auto;
     }
 
-    
     .intestazione {
         margin-top: 2rem;
     }
